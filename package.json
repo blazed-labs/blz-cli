@@ -1,0 +1,29 @@
+{
+  "name": "blz-cli",
+  "version": "1.0.0",
+  "description": "CLI to create Blazed Applications",
+  "main": "bin/index.js",
+  "scripts": {
+    "hello": "./bin/index.js",
+    "new-fire": "git clone https://github.com/blazed-space/fire",
+    "new-fire-angular": "git clone https://github.com/blazed-space/fire-angular",
+    "new-fire-react": "git clone https://github.com/blazed-space/fire-react",
+    "new-fire-svelte": "git clone https://github.com/blazed-space/fire-svelte",
+    "new-ice-php": "git clone https://github.com/blazed-space/blz-ice-php",
+    "new-ice-ruby": "git clone https://github.com/blazed-space/blz-ice-ruby",
+    "new-ice-node": "git clone https://github.com/blazed-space/blz-ice-node",
+    "new-ice-java": "git clone https://github.com/blazed-space/blz-ice-java",
+    "new-ice-dotnet": "git clone https://github.com/blazed-space/blz-ice-dotnet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazed-labs/blz-cli.git"
+  },
+  "author": "blazed-labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blazed-labs/blz-cli/issues"
+  },
+  "homepage": "https://github.com/blazed-labs/blz-cli#readme"
+}
